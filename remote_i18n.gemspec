@@ -3,7 +3,7 @@
 require_relative "lib/remote_i18n/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "remote_i18n"
+  spec.name = "remote-i18n"
   spec.version = RemoteI18n::VERSION
   spec.authors = ["Sachin Mudgal"]
   spec.email = ["schnmudgal@gmail.com"]
