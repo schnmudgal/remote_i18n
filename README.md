@@ -9,7 +9,7 @@ TODO: Delete this and the text above, and describe your gem
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'remote_i18n'
+gem 'remote-i18n', require: 'remote_i18n'
 ```
 
 And then execute:
@@ -18,7 +18,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install remote_i18n
+    $ gem install remote-i18n
 
 ## Usage
 
@@ -26,7 +26,7 @@ Or install it yourself as:
 - This gem uses existing "Simple" backend as a base for new "Remote" backend. It needs to be extended further to use "Key-Pair" backend with the remote support (TODO for future versions)
 - To use it, manually provide the "remote locations URLs" from where translations are to be fetched.
 - You can also set the "fallback locations" as you simply do with the normal `I18n` implementation.
-- Generate a config file using `rake generate remote_i18n_config`, or create your own initializer.
+- Using Rails - Generate a config file using `rails generate remote_i18n_config`, or create your own initializer.
 - Example code is below:
 ```
 # Remote URLs where the translation files are hosted

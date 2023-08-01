@@ -1,6 +1,8 @@
 # frozen_string_literal: true
 
-INITIALIZER_CONTENT = "# Remote URLs where the translation files are hosted
+INITIALIZER_CONTENT = "require 'remote_i18n'
+
+# Remote URLs where the translation files are hosted
 I18n.config.remote_urls = [
   'https://raw.githubusercontent.com/g1stavo/rails-i18n/master/config/locales/en.yml',
   'https://raw.githubusercontent.com/g1stavo/rails-i18n/master/config/locales/pt-BR.yml'
